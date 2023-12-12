@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="hamburgar.css" />
+  </head>
+  <body>
+    <button id="menuButton" aria-expanded="false" aria-controls="menuContent">
+      Meny
+    </button>
+    <div class="burgar" id="burgar" role="navigation" aria-labelledby="nav">
+      <svg
+        class="w-6"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.5"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+        aria-hidden="true"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+        ></path>
+      </svg>
+    </div>
+    <nav class="nav" id="menuContent" aria-hidden="true">
+      <ul>
+        <li><a href="#">Hem</a></li>
+        <li><a href="#">Om oss</a></li>
+        <li><a href="#">Tjänster</a></li>
+        <li><a href="#">Kontakt</a></li>
+      </ul>
+    </nav>
+
+    <script src="hamburgar.js"></script>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+#menuContent {
+  display: none;
+}
+.burgar {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  #menuContent {
+    display: block;
+  }
+  #menuContent {
+    display: none;
+  }
+  .burgar {
+    display: block;
+    width: 40px;
+    height: 40px;
+  }
+  #menuButton {
+    display: none;
+  }
+  ul {
+    list-style: none;
+  }
+}

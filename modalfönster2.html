@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="modalfönster2.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button id="open-dialog-btn" onclick="openDialog()">Open Dialog</button>
+    <dialog
+      id="accessibleDialog"
+      role="dialog"
+      aria-labelledby="accessibleDialogTitle"
+    >
+      <h2 id="accessibleDialogTitle">
+        Exempel på tillgängligt modalfönster med &lt;dialog&gt;
+      </h2>
+      <p>Här är innehållet i modalfönstret.</p>
+      <button id="closeDialogBtn" onclick="closeDialog()">Stäng</button>
+    </dialog>
+
+    <script src="modalfönster2.js"></script>
+  </body>
+</html>
